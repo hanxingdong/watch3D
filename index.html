@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" >
-<title>Title</title>
+<title>Panoramic View Demo</title>
 <link href="demo/watch3D.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -14,7 +14,7 @@
 <script type="text/javascript">
 let w3d = new watch3D({
     wrapper : ".wrapper",
-    autoplay : true,
+    autoplay : false,
     width: 5000,
     height : 2500,
     num : 12,
@@ -22,15 +22,16 @@ let w3d = new watch3D({
     tips : {
         0 : {
             styles : {
-                "height" : "100px",
-                "width" : "100px",
-                "background-color" : "#6cf",
+                "height" : "50px",
+                "width" : "50px",
+                "line-height": "120px",
+                "background" : "url('demo/sources/position.png')",
                 "text-align" : "center",
-                "margin-right" : "10px",
-                "color" : "#fff",
+                "color" : "#000",
+                "font-size" : "16px",
                 "cursor" : "pointer"
             },
-            content : "风景1",
+            content : "demo1",
             callback : function(e){
                 w3d.pause();
                 w3d.changeData({
@@ -41,14 +42,15 @@ let w3d = new watch3D({
         },
         1 : {
             styles : {
-                "height" : "100px",
-                "width" : "100px",
-                "background-color" : "#6cf",
+                "height" : "50px",
+                "width" : "50px",
+                "line-height": "120px",
+                "background" : "url('demo/sources/position.png')",
                 "text-align" : "center",
-                "margin-right" : "10px",
-                "color" : "#fff"
+                "font-size" : "16px",
+                "color" : "#000"
             },
-            content : "风景2",
+            content : "demo2",
             callback : function(e){
                 w3d.pause();
                 w3d.changeData({
@@ -59,14 +61,15 @@ let w3d = new watch3D({
         },
         2 : {
             styles : {
-                "height" : "100px",
-                "width" : "100px",
-                "background-color" : "#6cf",
+                "height" : "50px",
+                "width" : "50px",
+                "line-height": "120px",
+                "background" : "url('demo/sources/position.png')",
                 "text-align" : "center",
-                "margin-right" : "10px",
-                "color" : "#fff"
+                "font-size" : "16px",
+                "color" : "#000"
             },
-            content : "风景3",
+            content : "demo3",
             callback : function(e){
                 w3d.pause();
                 w3d.changeData({
@@ -77,14 +80,15 @@ let w3d = new watch3D({
         },
         4 : {
             styles : {
-                "height" : "100px",
-                "width" : "100px",
-                "background-color" : "#6cf",
+                "height" : "50px",
+                "width" : "50px",
+                "line-height": "120px",
+                "background" : "url('demo/sources/position.png')",
                 "text-align" : "center",
-                "margin-right" : "10px",
-                "color" : "#fff"
+                "font-size" : "16px",
+                "color" : "#000"
             },
-            content : "风景4",
+            content : "demo4",
             callback : function(e){
                 w3d.pause();
                 w3d.changeData({

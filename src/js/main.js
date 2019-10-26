@@ -190,7 +190,6 @@ class watch3D {
 
         if(this.auto || auto)
         this.loadResources();
-
         if(this.autoplay)
         this.play();
     }

@@ -26,7 +26,7 @@
     "url": "https://github.com/lonelymoon/Watch3D.git"
   },
   "scripts": {
-    "dev": "webpack-dev-server --host 192.168.1.109 --port 5000 --open --hot --config build/webpack.dev.config.js",
+    "dev": "webpack-dev-server --open --hot --config build/webpack.dev.config.js",
     "build": "webpack --config build/webpack.build.js"
   },
   "dependencies": {},
